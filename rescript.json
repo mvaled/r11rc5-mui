@@ -1,0 +1,30 @@
+{
+  "name": "rescript11-rc5-mui",
+  "sources": [
+    {
+      "dir": "src/",
+      "subdirs": true
+    },
+  ],
+  "suffix": ".js",
+  "jsx": {
+    "version": 4,
+    "mode": "automatic"
+  },
+  "uncurried": false,
+  "bs-dependencies": [
+    "@kaiko.io/rescript-deser",
+    "@kaiko.io/rescript-prelude",
+    "@kaiko.io/rescript-reindexed",
+    "@merchise/rescript-action-queue",
+    "@rescript/react",
+    "@rescript-mui/material",
+    "rescript-webapi"
+  ],
+  "package-specs": {
+    "module": "es6"
+  },
+  "warnings": {
+    "error": "+8+11+56"
+  }
+}
